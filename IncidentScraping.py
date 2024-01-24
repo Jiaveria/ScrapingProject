@@ -16,8 +16,7 @@ def IncidentScraper(region,day,file,headerCol):
             singleIncident.append(record.find("p").text)
         
         AllIncidents.append(singleIncident)
-    print(len(AllIncidents))
-
+    
     # Populate data to csv file
     data_frame = pd.DataFrame(AllIncidents, columns=['Incident number', 'Date and time', 'Location', 'Duration','Attending Stations/Brigades','Result'])
     #data_frame["Region"] = region  As we have separate file for regions now
