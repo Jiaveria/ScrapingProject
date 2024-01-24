@@ -19,9 +19,8 @@ This project involves web scraping real-time fire and emergency incident data fr
 
 To run this project, you'll need to install the required dependencies. You can do this using `pip`. Open a terminal and run the following commands:
 
-pip install beautifulsoup4
-pip install requests
-pip install pandas
-
+- pip install pandas
+- pip install requests
+- pip install beautifulsoup4
 
 
